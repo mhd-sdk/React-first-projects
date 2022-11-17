@@ -1,0 +1,41 @@
+#todo-container {
+    min-height: 80vh;
+    width: 500px;
+    background: radial-gradient(ellipse at 0% -20%, rgba(54, 65, 86, 1) 0%, rgba(40, 44, 52, 1) 100%);
+    position: relative;
+    top: 50%;
+    transform: translateY(10%);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(8, 8, 8, 0.2) 10px 7px 29px 0px;
+}
+#add-task-btn {
+    font-family: 'Koulen', cursive !important;
+    font-size: 1rem;
+    padding-top:2px ;
+    padding-bottom: 2px ;
+    position: absolute;
+    width: 100%;
+    display: block;
+
+}
+#todolist-title {
+    font-family: 'Koulen', cursive !important;
+    color: white;
+    text-align: center;
+    font-size:xx-large;
+    display: block;
+}
+#add-btn-container {
+    height: 50px;
+}
+
+.listItemCustom span {
+    font-family: 'Koulen', cursive !important;
+    text-align: center;
+    color: white;
+}
+.MuiPaper-root {
+    background : radial-gradient(ellipse at 0% -20%, rgba(54, 65, 86, 1) 0%, rgba(40, 44, 52, 1) 100%)
+}

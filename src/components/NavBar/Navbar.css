@@ -1,0 +1,40 @@
+#containerNavbar {
+    width: 99vw;
+    background-color: #20232a; 
+    position: sticky;
+    top:10px;
+    box-shadow: rgb(8 8 8 / 20%) 10px 7px 29px 0px;
+    z-index: 5;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#navbar .navbar-button {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    color: #999999;
+    font-family: 'Koulen', cursive;
+    transition: 0.8s ease;
+    box-shadow: inset 0px -30px 0px -30px #61dafb;
+    width: fit-content;
+}
+#navbar .navbar-button:hover {
+    box-shadow: inset 0px -35px 0px -30px #61dafb;
+    color: white;
+}
+#navbar .active{
+    box-shadow: inset 0px -35px 0px -30px #61dafb;
+    color: white;
+    /*background-color: #3c4250;*/
+}
+#navbar {
+    overflow: hidden;
+    display: block;
+    margin-left: 50px;
+
+}
